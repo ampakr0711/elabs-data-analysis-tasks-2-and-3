@@ -333,8 +333,8 @@ The concepts implemented in this project are widely used in:
 
 | Field | Details |
 |---|---|
-| 🎓 Program | Elabs Data Analysis Program |
-| 🧠 Domain | Data Analysis & Machine Learning |
+| 🎓 Society | Elabs |
+| 🧠 Domain | Data Analytics |
 | 🏫 Institution | KIIT University |
 | 📊 Project Type | Analytical & ML Implementation |
 
@@ -347,13 +347,7 @@ KIIT University
 
 ---
 
-# 🔒 License
 
-## ⚠️ MIT License
-
-This project is licensed under the MIT License.
-
----
 
 # 📌 Datasets Used
 
