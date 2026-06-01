@@ -1,42 +1,45 @@
-<div align="center">
-
 # 📊 Elabs Data Analysis & Machine Learning Projects
 
-### 🚀 Exploratory Data Analysis • Regression • Classification • Explainable AI
+### 🚀 Exploratory Data Analysis • Regression • Classification • Explainable AI • Sports Analytics
 
 <img src="https://img.shields.io/badge/Domain-Data%20Analysis-blue?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Machine%20Learning-Regression%20%26%20Classification-success?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Visualization-Matplotlib%20%7C%20Seaborn-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Explainable%20AI-SHAP-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Business%20Intelligence-PowerBI-purple?style=for-the-badge" />
 
 ---
 
 ### 🧠 End-to-End Data Analysis & Machine Learning Implementation using Python
 
-</div>
+This repository contains multiple Data Analytics, Machine Learning, Explainable AI, and Business Intelligence projects completed as part of the **Elabs Data Analysis Program**.
+
+The projects focus on:
+
+* Exploratory Data Analysis (EDA)
+* Manual Regression Model Implementation
+* Classification Modeling
+* Explainable AI using SHAP
+* Predictive Analytics
+* Sports Analytics
+* Power BI Dashboarding
+* Data Visualization & Reporting
 
 ---
 
 # 📌 Overview
 
-This repository contains implementations of multiple **Data Analysis and Machine Learning tasks** completed as part of the **Elabs Data Analysis Program**.
+This repository demonstrates practical applications of:
 
-The project focuses on:
-- Exploratory Data Analysis (EDA)
-- Manual Regression Model Implementation
-- Logistic Regression Classification
-- Explainable AI using SHAP
-- Data Preprocessing
-- Feature Engineering
-- Visualization & Analytical Reporting
-
-The repository demonstrates practical applications of:
-- Data Analytics
-- Machine Learning
-- Mathematical Optimization
-- Model Evaluation
-- Business Intelligence workflows
+* Data Analytics
+* Machine Learning
+* Predictive Modeling
+* Statistical Analysis
+* Mathematical Optimization
+* Explainable AI
+* Business Intelligence
+* Sports Analytics
 
 ---
 
@@ -44,22 +47,31 @@ The repository demonstrates practical applications of:
 
 The main objectives of this project are:
 
-✅ Perform exploratory data analysis on real-world datasets  
-✅ Implement regression algorithms manually using NumPy  
-✅ Understand gradient descent optimization  
-✅ Build machine learning classification models  
-✅ Apply preprocessing and feature engineering techniques  
-✅ Evaluate machine learning performance  
-✅ Generate explainable AI visualizations using SHAP  
+✅ Perform exploratory data analysis on real-world datasets
+
+✅ Implement regression algorithms manually using NumPy
+
+✅ Understand gradient descent optimization
+
+✅ Build machine learning classification models
+
+✅ Apply preprocessing and feature engineering techniques
+
+✅ Evaluate machine learning performance
+
+✅ Generate explainable AI visualizations using SHAP
+
+✅ Develop interactive Power BI dashboards
 
 ---
 
 # 📚 Tasks Included
 
-| Task | Description |
-|---|---|
-| 📈 Task 2 | Univariate Linear Regression using Gradient Descent |
-| 🤖 Task 3 | Multivariate Logistic Regression Classification |
+| Task           | Description                                          |
+| -------------- | ---------------------------------------------------- |
+| 📈 Task 2      | Univariate Linear Regression using Gradient Descent  |
+| 🤖 Task 3      | Multivariate Logistic Regression Classification      |
+| 🏏 IPL Project | IPL 2025 Performance Analytics & Predictive Modeling |
 
 ---
 
@@ -82,6 +94,15 @@ Elabs-Data-Analysis-and-Machine-Learning/
 │   ├── outputs/
 │   └── images/
 │
+├── IPL-2025-Analytics/
+│   ├── IPL_2025_EDA_and_Predictive_Analytics.ipynb
+│   ├── IPL2025Batters.csv
+│   ├── IPL2025Bowlers.csv
+│   ├── IPL2025Matches.csv
+│   ├── IPL2025Teams.csv
+│   ├── dashboard/
+│   └── screenshots/
+│
 └── requirements.txt
 ```
 
@@ -89,16 +110,17 @@ Elabs-Data-Analysis-and-Machine-Learning/
 
 # ⚙️ Technologies Used
 
-| Technology | Purpose |
-|---|---|
-| Python | Core Programming |
-| Pandas | Data Manipulation |
-| NumPy | Numerical Computation |
-| Matplotlib | Data Visualization |
-| Seaborn | Statistical Visualization |
-| Scikit-learn | Machine Learning Utilities |
-| SHAP | Explainable AI |
-| Jupyter Notebook | Development Environment |
+| Technology       | Purpose                    |
+| ---------------- | -------------------------- |
+| Python           | Core Programming           |
+| Pandas           | Data Manipulation          |
+| NumPy            | Numerical Computation      |
+| Matplotlib       | Data Visualization         |
+| Seaborn          | Statistical Visualization  |
+| Scikit-learn     | Machine Learning Utilities |
+| SHAP             | Explainable AI             |
+| Power BI         | Business Intelligence      |
+| Jupyter Notebook | Development Environment    |
 
 ---
 
@@ -107,9 +129,10 @@ Elabs-Data-Analysis-and-Machine-Learning/
 ## 📌 Objective
 
 The objective of Task 2 is to implement a **Univariate Linear Regression Model** from scratch using:
-- NumPy
-- Pandas
-- Gradient Descent
+
+* NumPy
+* Pandas
+* Gradient Descent
 
 without using sklearn regression implementations.
 
@@ -117,13 +140,19 @@ without using sklearn regression implementations.
 
 # 🧠 Concepts Implemented
 
-✅ Correlation Analysis  
-✅ Feature Selection  
-✅ Linear Regression  
-✅ Cost Function  
-✅ Gradient Descent  
-✅ Loss Minimization  
-✅ R² Score Evaluation  
+✅ Correlation Analysis
+
+✅ Feature Selection
+
+✅ Linear Regression
+
+✅ Cost Function
+
+✅ Gradient Descent
+
+✅ Loss Minimization
+
+✅ R² Score Evaluation
 
 ---
 
@@ -144,8 +173,6 @@ Manual Linear Regression
         ↓
 Gradient Descent Optimization
         ↓
-Loss Curve Visualization
-        ↓
 Model Evaluation
 ```
 
@@ -153,13 +180,13 @@ Model Evaluation
 
 # 📊 Task 2 Features
 
-- Data preprocessing
-- Correlation heatmaps
-- Trend visualizations
-- Manual regression implementation
-- Loop-based gradient descent
-- Loss curve plotting
-- R² score evaluation
+* Data preprocessing
+* Correlation heatmaps
+* Trend visualizations
+* Manual regression implementation
+* Gradient descent optimization
+* Regression line visualization
+* R² score evaluation
 
 ---
 
@@ -178,21 +205,21 @@ y = wx + b
 ### Gradient Descent Update Rule
 
 ```math
-w := w - α ∂J/∂w
+w := w - α \frac{\partial J}{\partial w}
 ```
 
 ---
 
 # 📈 Visualizations Included
 
-The notebook contains multiple analytical visualizations such as:
+The notebook contains analytical visualizations such as:
 
-- Correlation heatmaps
-- Scatter plots
-- Histograms
-- Boxplots
-- Regression trend plots
-- Loss vs iteration curve
+* Correlation Heatmaps
+* Scatter Plots
+* Histograms
+* Boxplots
+* Regression Trend Plots
+* Feature Analysis
 
 ---
 
@@ -203,25 +230,33 @@ The notebook contains multiple analytical visualizations such as:
 The objective of Task 3 is to build a **Multivariate Logistic Regression Classification Model** for loan prediction analysis.
 
 The project includes:
-- preprocessing
-- feature engineering
-- scaling
-- classification
-- model evaluation
-- explainable AI
+
+* Data Preprocessing
+* Feature Engineering
+* Scaling
+* Classification
+* Model Evaluation
+* Explainable AI
 
 ---
 
 # 🧠 Concepts Implemented
 
-✅ Train-Test Split  
-✅ Feature Selection  
-✅ Missing Value Imputation  
-✅ Feature Scaling  
-✅ Logistic Regression  
-✅ Confusion Matrix  
-✅ Classification Evaluation  
-✅ SHAP Explainability  
+✅ Train-Test Split
+
+✅ Feature Selection
+
+✅ Missing Value Imputation
+
+✅ Feature Scaling
+
+✅ Logistic Regression
+
+✅ Confusion Matrix
+
+✅ Classification Evaluation
+
+✅ SHAP Explainability
 
 ---
 
@@ -251,13 +286,13 @@ SHAP Explainability
 
 # 📊 Task 3 Features
 
-- Feature engineering
-- Missing value handling
-- Standardization & scaling
-- Classification modeling
-- Accuracy evaluation
-- Confusion matrix analysis
-- SHAP explainability plots
+* Feature engineering
+* Missing value handling
+* Standardization & scaling
+* Classification modeling
+* Accuracy evaluation
+* Confusion matrix analysis
+* SHAP explainability plots
 
 ---
 
@@ -265,28 +300,194 @@ SHAP Explainability
 
 The classification model includes evaluation using:
 
-- Accuracy Score
-- Confusion Matrix
-- Precision
-- Recall
-- F1-Score
-- Classification Report
+* Accuracy Score
+* Confusion Matrix
+* Precision
+* Recall
+* F1 Score
+* Classification Report
 
 ---
 
 # 🧠 Explainable AI using SHAP
 
-The project integrates SHAP (SHapley Additive exPlanations) for model interpretability.
+The project integrates SHAP (SHapley Additive Explanations) for model interpretability.
 
 SHAP helps explain:
-- feature importance
-- prediction influence
-- model behavior
+
+* Feature Importance
+* Prediction Influence
+* Model Behavior
 
 This improves:
-✅ transparency  
-✅ interpretability  
-✅ explainable machine learning workflows  
+
+✅ Transparency
+
+✅ Interpretability
+
+✅ Explainable Machine Learning Workflows
+
+---
+
+# 🏏 IPL 2025 Performance Analytics & Predictive Modeling
+
+## 📌 Objective
+
+The objective of this project is to perform Exploratory Data Analysis (EDA), Predictive Analytics, and Business Intelligence Dashboarding on IPL 2025 player performance data.
+
+The project focuses on identifying batting and bowling trends, generating statistical insights, building predictive models, and creating interactive dashboards.
+
+---
+
+# 🧠 Concepts Implemented
+
+✅ Exploratory Data Analysis
+
+✅ Statistical Analysis
+
+✅ Data Cleaning
+
+✅ Predictive Analytics
+
+✅ Linear Regression
+
+✅ Data Visualization
+
+✅ Sports Analytics
+
+✅ Power BI Dashboarding
+
+---
+
+# 📂 Datasets Used
+
+### IPL2025Batters.csv
+
+Contains batting statistics such as:
+
+* Runs
+* Strike Rate
+* Boundaries
+* Sixes
+* Average
+* Matches Played
+
+### IPL2025Bowlers.csv
+
+Contains bowling statistics such as:
+
+* Wickets
+* Economy Rate
+* Bowling Average
+* Strike Rate
+* Overs Bowled
+
+---
+
+# 🔬 Workflow
+
+```text
+IPL Dataset
+      ↓
+Data Cleaning
+      ↓
+Exploratory Data Analysis
+      ↓
+Statistical Analysis
+      ↓
+Visualization
+      ↓
+Predictive Modeling
+      ↓
+Power BI Dashboard
+```
+
+---
+
+# 📊 Exploratory Data Analysis
+
+The notebook includes extensive EDA on batting and bowling performances.
+
+### Batting Analysis
+
+* Top Run Scorers
+* Strike Rate Analysis
+* Runs Distribution
+* Boundary Analysis
+* Six-Hitting Analysis
+
+### Bowling Analysis
+
+* Top Wicket Takers
+* Economy Analysis
+* Wicket Distribution
+* Bowling Performance Comparison
+
+---
+
+# 📈 Visualizations Included
+
+### Batting Visualizations
+
+* Top Run Scorers
+* Top Strike Rate Players
+* Runs Distribution
+* Strike Rate Distribution
+* Top Boundary Hitters
+* Top Six Hitters
+
+### Bowling Visualizations
+
+* Top Wicket Takers
+* Best Economy Bowlers
+* Economy Distribution
+* Wickets Distribution
+
+---
+
+# 🤖 Predictive Analytics
+
+A Linear Regression model was developed to analyze player performance metrics.
+
+### Evaluation Metrics
+
+* R² Score
+* Actual vs Predicted Analysis
+* Prediction Visualization
+
+---
+
+# 📊 Power BI Dashboard
+
+A custom Power BI dashboard was developed to provide interactive IPL 2025 insights.
+
+### Dashboard Features
+
+#### Overview Dashboard
+
+* Total Runs
+* Total Wickets
+* Average Strike Rate
+* Average Economy Rate
+
+#### Batting Dashboard
+
+* Top Run Scorers
+* Strike Rate Analysis
+* Team-wise Performance
+
+#### Bowling Dashboard
+
+* Top Wicket Takers
+* Economy Analysis
+* Team-wise Bowling Statistics
+
+#### Insights Dashboard
+
+* Highest Run Scorer
+* Most Wickets
+* Best Economy Bowler
+* Highest Strike Rate
 
 ---
 
@@ -294,25 +495,27 @@ This improves:
 
 This project demonstrates practical understanding of:
 
-- Machine Learning fundamentals
-- Mathematical optimization
-- Gradient descent
-- Regression analysis
-- Classification systems
-- Explainable AI
-- Data preprocessing pipelines
-- Visualization & analytical reporting
+* Machine Learning Fundamentals
+* Gradient Descent
+* Regression Analysis
+* Classification Systems
+* Explainable AI
+* Data Preprocessing
+* Data Visualization
+* Sports Analytics
+* Predictive Analytics
+* Power BI Dashboarding
 
 ---
 
 # 🚀 Future Improvements
 
-- Advanced regression techniques
-- Hyperparameter optimization
-- Ensemble learning models
-- Deep learning approaches
-- Automated ML pipelines
-- Real-time prediction systems
+* Advanced Regression Techniques
+* Hyperparameter Optimization
+* Ensemble Learning Models
+* Deep Learning Approaches
+* Real-Time Sports Analytics
+* Automated ML Pipelines
 
 ---
 
@@ -320,49 +523,65 @@ This project demonstrates practical understanding of:
 
 The concepts implemented in this project are widely used in:
 
-- business analytics
-- financial prediction systems
-- fraud detection
-- healthcare analytics
-- machine learning pipelines
-- predictive modeling systems
+* Business Analytics
+* Financial Prediction Systems
+* Fraud Detection
+* Healthcare Analytics
+* Sports Analytics
+* Predictive Modeling Systems
+* Business Intelligence
 
 ---
 
 # 📚 Academic Information
 
-| Field | Details |
-|---|---|
-| 🎓 Society | Elabs |
-| 🧠 Domain | Data Analytics |
-| 🏫 Institution | KIIT University |
+| Field           | Details                        |
+| --------------- | ------------------------------ |
+| 🎓 Society      | Elabs                          |
+| 🧠 Domain       | Data Analytics                 |
+| 🏫 Institution  | KIIT University                |
 | 📊 Project Type | Analytical & ML Implementation |
 
 ---
 
 # 👨‍💻 Author
 
-## 🔹 Ampa Ranjan  
+## 🔹 Ampa Ranjan
+
 KIIT University
 
 ---
 
-
-
 # 📌 Datasets Used
 
 ## 📈 Task 2 Dataset
-Student Performance Dataset  
+
+Student Performance Dataset
+
 UCI Machine Learning Repository
 
+---
+
 ## 🤖 Task 3 Dataset
-Loan Prediction Dataset  
+
+Loan Prediction Dataset
+
 Kaggle Dataset
+
+---
+
+## 🏏 IPL Project Dataset
+
+* IPL2025Batters.csv
+* IPL2025Bowlers.csv
+* IPL2025Matches.csv
+* IPL2025Teams.csv
 
 ---
 
 <div align="center">
 
-# ⭐ Data Analysis • Machine Learning • Explainable AI ⭐
+# ⭐ Data Analysis • Machine Learning • Explainable AI • Sports Analytics ⭐
 
 </div>
+
