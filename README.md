@@ -574,8 +574,6 @@ Kaggle Dataset
 
 * IPL2025Batters.csv
 * IPL2025Bowlers.csv
-* IPL2025Matches.csv
-* IPL2025Teams.csv
 
 ---
 
