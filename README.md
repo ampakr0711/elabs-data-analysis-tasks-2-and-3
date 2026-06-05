@@ -1,7 +1,7 @@
 # 📊 Elabs Data Analysis & Machine Learning Projects
 
 ### 🚀 Exploratory Data Analysis • Regression • Classification • Explainable AI • Sports Analytics
-
+<p align="center">
 <img src="https://img.shields.io/badge/Domain-Data%20Analysis-blue?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Machine%20Learning-Regression%20%26%20Classification-success?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge" />
